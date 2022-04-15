@@ -1,0 +1,261 @@
+body{
+    background-color: rgb(255, 192, 133);
+    text-align: center;
+}
+img
+{
+    height: 630px;
+    width: 400px;
+}
+.kotiki
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.kotiki div
+{
+    margin: 30px;
+}
+.kotiki div a
+{
+    text-decoration: none;
+    color: rgba(70, 3, 50, 0.747);
+}
+.kotiki div a:hover
+{
+    text-decoration: none;
+    color: rgb(0, 38, 255);
+    font-size: 16.4px;
+}
+.kot_aga
+{
+    height: 560px;
+    width: 500px;
+}
+.kotok
+{
+display: flex;
+justify-content: space-around;
+}
+.odin
+{
+    color: coral;
+}
+.dwa
+{
+    color: black;
+}
+.tri
+{
+    color: azure;
+}
+.kot
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.yoy
+{
+   background: rgb(255, 192, 133);
+   color: rgb(255, 192, 109);
+   text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+   letter-spacing: 0.1em;
+      
+}
+.go
+{
+    font-style: oblique;
+    background: rgb(255, 192, 133);
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px rgb(202, 255, 224), 0 0 35px rgb(202, 255, 224), 0 0 40px rgb(202, 255, 224), 0 0 50px rgb(202, 255, 224), 0 0 75px rgb(202, 255, 224);
+    background-color: #f1f1f13d;
+}
+.go2
+{
+    font-style: oblique;
+    background: rgb(255, 192, 133);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgb(64, 3, 77), 0 0 10px rgb(64, 3, 77), 0 0 15px rgb(0, 0, 0), 0 0 20px rgb(62, 52, 87), 0 0 35px rgb(62, 52, 87), 0 0 40px rgb(62, 52, 87), 0 0 50px rgb(62, 52, 87), 0 0 75px rgb(62, 52, 87);
+    background-color: #29292936;
+}
+.go3
+{
+    font-style: oblique;
+    background: rgb(255, 192, 133);
+    color: rgb(255, 169, 98);
+    text-shadow: 0 0 5px rgb(255, 107, 62), 0 0 10px rgb(255, 107, 62), 0 0 15px rgb(255, 107, 62), 0 0 20px rgb(255, 71, 25), 0 0 35px rgb(255, 114, 33), 0 0 40px rgb(255, 71, 25), 0 0 50px rgb(255, 71, 25), 0 0 75px rgb(255, 71, 25);
+    background-color: #ffa15586;
+}
+.clas
+{
+    color: rgb(255, 192, 109);
+  text-shadow: 1px 1px #000000, 1px -1px #000000, -1px 1px #000000, -1px -1px #000000, 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+}
+.r1
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-top-left-radius: 100% 50px; border-bottom-right-radius: 100% 50px;
+}
+.r1:nth-child(1) {background:#d49872}
+.r1:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(253, 202, 154), 0 0 0 4px #000000;}
+.r2
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-radius: 50%;
+}
+.r2:nth-child(1) {background:#0000007c}
+.r2:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(253, 202, 154), 0 0 0 4px #000000;}
+.r3
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-top-right-radius: 100% 50px; border-bottom-left-radius: 100% 50px;
+}
+.r3:nth-child(1) {background:#d49872}
+.r3:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(253, 202, 154), 0 0 0 4px #000000;}
+.gog
+{
+   background: #caff98;
+   color: rgb(85, 255, 93);
+   text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+   letter-spacing: 0.1em;
+}
+.kartinka
+{
+    height: 670px;
+    width: 450px;
+}
+.eza
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    animation-direction: alternate;
+}
+.classs
+{
+    color: rgb(178, 255, 115);
+    text-shadow: 1px 1px #000000, 1px -1px #000000, -1px 1px #000000, -1px -1px #000000, 3px 3px 6px rgba(0, 0, 0, 0.5);
+  
+}
+.o2
+{
+    background-color: #caff98;
+}
+.hoh
+{
+    background-color: rgba(255, 214, 101, 0.781);
+}
+.container
+{
+  perspective: 500px;
+  margin: 0 40px;
+  background: rgba(195,209,212,.7);
+  border-radius: 5px;
+
+}
+.style-flat
+{
+    transform-style: flat;
+}
+.flip
+{
+  transform: rotateX(45deg);
+
+  background: rgba(169,90,145,.8); 
+  animation: rotate 5s infinite;
+}
+@keyframes rotate {
+    60% {
+      transform: rotateX(0deg);
+    }
+  }
+.ga
+{
+    font-style: oblique;
+    background: rgb(7, 2, 73);
+    color: rgb(0, 1, 39);
+    text-shadow: 0 0 5px rgb(48, 48, 48), 0 0 10px rgb(48, 48, 48), 0 0 15px rgb(48, 48, 48), 0 0 20px rgb(0, 0, 0), 0 0 35px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0), 0 0 75px rgb(0, 0, 0);
+    background-color: #00013f3d;
+}
+.gaga
+{
+    font-style: oblique;
+    background: rgb(255, 237, 187);
+    color: rgb(221, 184, 149);
+    text-shadow: 0 0 5px rgb(255, 218, 170), 0 0 10px rgb(255, 218, 170), 0 0 15px rgb(255, 218, 170), 0 0 20px rgb(255, 237, 211), 0 0 35px rgb(255, 237, 211), 0 0 40px rgb(255, 237, 211), 0 0 50px rgb(255, 237, 211), 0 0 75px rgb(255, 237, 211);
+    background-color: #7a746c3d;
+}
+.goga
+{
+    font-style: oblique;
+    background: rgb(255, 71, 47);
+    color: rgb(255, 53, 17);
+    text-shadow: 0 0 5px rgb(121, 0, 0), 0 0 10px rgb(121, 0, 0), 0 0 15px rgb(121, 0, 0), 0 0 20px rgb(255, 237, 211), 0 0 35px rgb(139, 40, 40), 0 0 40px rgb(139, 40, 40), 0 0 50px rgb(139, 40, 40), 0 0 75px rgb(139, 40, 40);
+    background-color: #cf0b043d;
+}
+.r4
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-top-left-radius: 100% 50px; border-bottom-right-radius: 100% 50px;
+}
+.r4:nth-child(1) {background:#8eb67c}
+.r4:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(203, 255, 193), 0 0 0 4px #000000;}
+.r5
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-radius: 50%;
+}
+.r5:nth-child(1) {background:#8eb67c}
+.r5:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(187, 255, 185), 0 0 0 4px #000000;}
+.r6
+{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    border-top-right-radius: 100% 50px; border-bottom-left-radius: 100% 50px;
+}
+.r6:nth-child(1) {background:#8eb67c}
+.r6:nth-child(1):hover {
+    box-shadow: 0 0 0 2px rgb(180, 240, 185), 0 0 0 4px #000000;}
